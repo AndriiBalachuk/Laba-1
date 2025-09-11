@@ -1,108 +1,129 @@
-@font-face{
-    font-family: 'GothamRounded';
-    src: url('../fonts/GothamRounded/gothamrnd_book.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(./fonts/roboto/Roboto-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
 }
-@font-face{
-    font-family: 'GothamRounded';
-    src: url('../fonts/GothamRounded/gothamrnd_medium.otf') format('opentype');
-    font-weight: 600;
-    font-style: normal;
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(./fonts/roboto/Roboto-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
 }
-@font-face{
-    font-family: 'GothamRounded';
-    src: url('../fonts/GothamRounded/gothamrnd_bold.otf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face{
-    font-family: 'GothamRounded';
-    src: url('../fonts/GothamRounded/gothamrnd_light.otf') format('opentype');
-    font-weight: 300;
-    font-style: normal;}
-html{
-    font-size: 100%;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'GothamRounded', sans-serif;
-    line-height: 1.5;
-    background-color: #fff;
-    color: #373737;
-  
-}
-.container{
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-header{
-    width: 100%;
-    display: block;
-    padding: 32px 0px 36px 0px;
-}
-nav{
-    width:100%;
-    max-width: 575px;
-    margin: 0 auto;
-}
-nav .menu-item{
-    display: inline-block;
-    margin-right: 66px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.5;
-    color:#16a085;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-nav .menu-item:last-child{
-    margin-right: 0px;
-}
-.hero img{
-    width: 100%;
-    
-}
-.heading-text{
-    width:100%;
-    background-color: #f5f6f7;
-}
-.heading-text .content{
-    width:100%;
-    max-width: 1060px;
-    padding: 60px 20px 94px 20px;
-    text-align: center;
-    margin: 0 auto;
-}
-.heading-text .content h1{
-    font-weight: 700;
-    font-size:18px;
-    line-height: 1.5;
-    color: #373737;
-    margin-bottom: 35px;
-    text-transform: uppercase;
-}
-.heading-text .content a{    
-    display: block;
-    width: 100%;
 
-    max-width: 189px;
-    margin: 0 auto;
-    margin-top: 45px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #16a085;
-    padding: 24px 41px 20px 41px;
+html {
+  font-size: 100%;
+  font-family: "Roboto-Black", sans-serif;
+  box-sizing: border-box;
 }
-footer{
-    width:100%;
-    padding: 47px 0px 46px 0px;
+body {
+  width: 100%;
+  max-width: 1280px;
+  letter-spacing: 2px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #f5f6f7;
 }
-.footer-content{
-    width:100%;
-    max-width: 1060px;
-    margin: 0 auto;
-    text-align: right;
+
+.header_href {
+  padding: 32px 0 36px 0;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+  max-width: 602px;
+}
+.menu-item {
+  margin-right: 70px;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #16a085;
+}
+.menu-item:hover {
+  color: #146353;
+}
+.menu-item:last-child {
+  margin-right: 0;
+}
+/* .hero {
+  margin-bottom: 56px;
+} */
+
+.text {
+  color: #373737;
+  width: 100%;
+  max-width: 1028px;
+  margin: 0 auto;
+  padding: 0 0 94px 0;
+}
+h1 {
+  width: 100%;
+  max-width: 620px;
+  font-size: 22px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 56px 0 34px 0;
+  text-align: center;
+}
+.text p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 0 34px 0;
+  text-align: center;
+}
+.button_link {
+  width: 100%;
+  height: 100%;
+  height: 52px;
+  width: 192px;
+  margin: auto;
+  border-radius: 4px;
+  padding: 17px 0 17px 0;
+  text-align: center;
+  background-color: #16a085;
+}
+.button_text {
+  font-size: 12px;
+  font-family: "Roboto-Regular", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.button_link:hover {
+  background-color: #146353;
+}
+
+.footer_area {
+  padding: 46px 106px 46px 106px;
+  background-color: #fff;
+  color: #373737;
+}
+.footer_area nav {
+  width: 100%;
+  max-width: 346px;
+  margin-right: 300px;
+}
+.footer_navigation {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #373737;
+}
+.footer_navigation:hover {
+  color: #16a085;
+}
+.footer_navigation:not(:last-child)::after {
+  content: "|";
+  margin: 0 0 0 6px;
+  color: #16a085;
+}
+.footer_text {
+  display: inline-block;
+}
+.right_text {
+  font-size: 16px;
 }
