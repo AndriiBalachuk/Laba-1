@@ -49,9 +49,9 @@ nav {
 .menu-item:last-child {
   margin-right: 0;
 }
-/* .hero {
-  margin-bottom: 56px;
-} */
+.hero img {
+  width: 100%;
+}
 
 .text {
   color: #373737;
