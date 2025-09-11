@@ -1,0 +1,108 @@
+@font-face{
+    font-family: 'GothamRounded';
+    src: url('../fonts/GothamRounded/gothamrnd_book.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'GothamRounded';
+    src: url('../fonts/GothamRounded/gothamrnd_medium.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'GothamRounded';
+    src: url('../fonts/GothamRounded/gothamrnd_bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'GothamRounded';
+    src: url('../fonts/GothamRounded/gothamrnd_light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;}
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'GothamRounded', sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #373737;
+  
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    display: block;
+    padding: 32px 0px 36px 0px;
+}
+nav{
+    width:100%;
+    max-width: 575px;
+    margin: 0 auto;
+}
+nav .menu-item{
+    display: inline-block;
+    margin-right: 66px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    color:#16a085;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav .menu-item:last-child{
+    margin-right: 0px;
+}
+.hero img{
+    width: 100%;
+    
+}
+.heading-text{
+    width:100%;
+    background-color: #f5f6f7;
+}
+.heading-text .content{
+    width:100%;
+    max-width: 1060px;
+    padding: 60px 20px 94px 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.heading-text .content h1{
+    font-weight: 700;
+    font-size:18px;
+    line-height: 1.5;
+    color: #373737;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.heading-text .content a{    
+    display: block;
+    width: 100%;
+
+    max-width: 189px;
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #16a085;
+    padding: 24px 41px 20px 41px;
+}
+footer{
+    width:100%;
+    padding: 47px 0px 46px 0px;
+}
+.footer-content{
+    width:100%;
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: right;
+}
