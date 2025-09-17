@@ -22,10 +22,10 @@ body {
   letter-spacing: 2px;
   height: auto;
   margin: 0 auto;
-  background-color: #f5f6f7;
+  background-color: #fff;
 }
 
-.header_href {
+header {
   padding: 32px 0 36px 0;
   background-color: #fff;
   margin: 0 auto;
@@ -43,28 +43,29 @@ nav {
   text-transform: uppercase;
   color: #16a085;
 }
+
 .menu-item:hover {
   color: #146353;
 }
+
 .menu-item:last-child {
   margin-right: 0;
 }
+
 .hero img {
   width: 100%;
 }
 
 .text {
-  color: #373737;
   width: 100%;
-  max-width: 1028px;
-  margin: 0 auto;
-  padding: 0 0 94px 0;
+  max-width: 1280px;
+  padding: 0 110px 94px 110px;
+  color: #373737;
+  background-color: #f5f6f7;
 }
 h1 {
   width: 100%;
-  max-width: 620px;
   font-size: 22px;
-  margin: 0 auto;
   text-transform: uppercase;
   padding: 56px 0 34px 0;
   text-align: center;
@@ -95,12 +96,12 @@ h1 {
   background-color: #146353;
 }
 
-.footer_area {
+footer {
   padding: 46px 106px 46px 106px;
   background-color: #fff;
   color: #373737;
 }
-.footer_area nav {
+footer nav {
   width: 100%;
   max-width: 346px;
   margin-right: 300px;
